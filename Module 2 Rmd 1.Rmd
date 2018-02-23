@@ -3,17 +3,41 @@ title: "Module 2 R Markdown 1"
 author: "Ryan Jerving"
 date: "February 19, 2018"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Level 1 header
+
 ## R Markdown
 
+### Level 3 header
+
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+Here's a link to visit [The Viper](https://theviper.org)
+
+Formatting in **bold** or *italics*.
+
+When we compile, we'll use the `R Markdown` package.
+
+To make a list, do this:
+
+* Breakfast
+    - food
+        + eggs
+        + bacon
+        + toast
+    - drinks
+        + coffee
+        + OJ
+        + milk
+* Lunch
+    - taco
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
