@@ -3,8 +3,8 @@ title: "Module 2 R Markdown 1"
 author: "Ryan Jerving"
 date: "February 19, 2018"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
