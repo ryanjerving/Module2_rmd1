@@ -63,9 +63,10 @@ plot(pressure)
 
 ## Insert Tables
 
-```{r}
+```{r cars-table, echo = FALSE}
 
-knitr::kable(head(cars))
+knitr::kable(head(cars),
+             caption = "Top 6 Rows of Cars Data Set")
 
 ```
 
