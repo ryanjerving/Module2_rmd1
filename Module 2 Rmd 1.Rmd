@@ -3,8 +3,8 @@ title: "Module 2 R Markdown 1"
 author: "Ryan Jerving"
 date: "February 19, 2018"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -69,4 +69,31 @@ knitr::kable(head(cars),
              caption = "Top 6 Rows of Cars Data Set")
 
 ```
+
+## Inserting Equataions
+
+Using LaTeX syntax, a linear regression model might look like this:
+
+$$ Y = \beta_0 + \beta_1x + \epsilon$$
+
+## Inserting Images
+
+Here is an image inserted from a file in my own repository:
+
+![sunstar](sunstar.png)
+
+## Inserting Animated GIFs and Video
+
+![sunstar GIF](sunstar/sunstar.gif)
+
+![sunstar video](sunstar/sunstar.mp4)
+
+## Insert Text with some Footnotes
+
+Here is a footnote reference. [^1] and another [^longnote]
+
+Here is an inline note. ^[Inline notes track the number for us.]
+
+[^1]: Here is the actual footnote at the end of the document.
+[^longnote]: Here's one with multiple blocks.
 
